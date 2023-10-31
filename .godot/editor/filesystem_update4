@@ -7,3 +7,7 @@ res://Scenes/death_zone.tscn
 res://Scenes/ui.tscn
 res://Scripts/ui.gd
 res://Scripts/paddle.gd
+res://brick.tscn
+res://brick.gd
+res://Scripts/brick_spawner.gd
+res://Scenes/brick.tscn
