@@ -34,6 +34,7 @@ theme_override_font_sizes/font_size = 32
 text = "Lifes : 3"
 
 [node name="GameLostContainer" type="CenterContainer" parent="."]
+visible = false
 anchors_preset = 15
 anchor_right = 1.0
 anchor_bottom = 1.0
@@ -63,3 +64,5 @@ vertical_alignment = 1
 [node name="GameLostButton" type="Button" parent="GameLostContainer/Panel/VBoxContainer"]
 layout_mode = 2
 text = "RESTART GAME"
+
+[connection signal="pressed" from="GameLostContainer/Panel/VBoxContainer/GameLostButton" to="." method="_on_game_lost_button_pressed"]
