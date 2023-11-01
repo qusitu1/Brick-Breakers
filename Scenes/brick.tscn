@@ -7,6 +7,7 @@
 size = Vector2(100, 25)
 
 [node name="Brick" type="RigidBody2D"]
+collision_layer = 8
 gravity_scale = 2.66454e-15
 lock_rotation = true
 freeze = true
@@ -17,5 +18,5 @@ scale = Vector2(0.25, 0.25)
 texture = ExtResource("1_plobh")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(0, 0.5)
+position = Vector2(2.08165e-12, 2.08165e-12)
 shape = SubResource("RectangleShape2D_l7gi7")

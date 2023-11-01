@@ -8,6 +8,7 @@ size = Vector2(125, 14)
 
 [node name="Paddle" type="RigidBody2D"]
 gravity_scale = 2.66454e-15
+lock_rotation = true
 script = ExtResource("1_cx72o")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]
