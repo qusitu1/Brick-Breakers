@@ -20,11 +20,10 @@ collision_layer = 2
 speed = 500
 camera = NodePath("../Camera2D")
 
-[node name="Ball" parent="." node_paths=PackedStringArray("death_zone", "ui") instance=ExtResource("2_lm2je")]
+[node name="Ball" parent="." instance=ExtResource("2_lm2je")]
 position = Vector2(2.08165e-12, 152)
 collision_mask = 14
-death_zone = NodePath("../DeathZone")
-ui = NodePath("../UI")
+script = null
 
 [node name="Walls" type="Node" parent="."]
 
