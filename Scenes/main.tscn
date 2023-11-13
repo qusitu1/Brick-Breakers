@@ -8,7 +8,7 @@
 [ext_resource type="Script" path="res://Scripts/brick_spawner.gd" id="6_gf4sn"]
 [ext_resource type="PackedScene" uid="uid://qhhng4bjd6vx" path="res://Scenes/brick.tscn" id="7_181yb"]
 
-[node name="main" type="Node"]
+[node name="Main" type="Node"]
 
 [node name="UI" parent="." instance=ExtResource("1_aqp5h")]
 
@@ -23,7 +23,6 @@ camera = NodePath("../Camera2D")
 [node name="Ball" parent="." instance=ExtResource("2_lm2je")]
 position = Vector2(2.08165e-12, 152)
 collision_mask = 14
-script = null
 
 [node name="Walls" type="Node" parent="."]
 
