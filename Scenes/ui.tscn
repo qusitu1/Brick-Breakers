@@ -23,15 +23,7 @@ theme_override_constants/margin_bottom = 16
 [node name="HBoxContainer" type="HBoxContainer" parent="MarginContainer"]
 layout_mode = 2
 
-[node name="GameLostContainer" type="CenterContainer" parent="."]
-visible = false
-anchors_preset = 15
-anchor_right = 1.0
-anchor_bottom = 1.0
-grow_horizontal = 2
-grow_vertical = 2
-
-[node name="LifesLabel" type="Label" parent="GameLostContainer"]
+[node name="LifesLabel" type="Label" parent="MarginContainer/HBoxContainer"]
 unique_name_in_owner = true
 texture_filter = 1
 layout_mode = 2
@@ -40,6 +32,14 @@ size_flags_vertical = 0
 theme_override_fonts/font = ExtResource("2_gc8ei")
 theme_override_font_sizes/font_size = 32
 text = "Lifes : 3"
+
+[node name="GameLostContainer" type="CenterContainer" parent="."]
+visible = false
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
 
 [node name="Panel" type="Panel" parent="GameLostContainer"]
 custom_minimum_size = Vector2(300, 300)
