@@ -51,4 +51,4 @@ margin = Vector2(80, 30)
 spawn_start = NodePath("../Marker2D")
 
 [node name="Marker2D" type="Marker2D" parent="."]
-position = Vector2(1, -258)
+position = Vector2(2, -258)
