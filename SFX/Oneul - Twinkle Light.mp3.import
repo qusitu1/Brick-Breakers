@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://ckdfthxoui7fl"
+path="res://.godot/imported/Oneul - Twinkle Light.mp3-d6df4b4105e7d8b45acd8c3006a03d86.mp3str"
+
+[deps]
+
+source_file="res://SFX/Oneul - Twinkle Light.mp3"
+dest_files=["res://.godot/imported/Oneul - Twinkle Light.mp3-d6df4b4105e7d8b45acd8c3006a03d86.mp3str"]
+
+[params]
+
+loop=false
+loop_offset=0
+bpm=0
+beat_count=0
+bar_beats=4

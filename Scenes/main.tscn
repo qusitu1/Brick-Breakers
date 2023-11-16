@@ -1,4 +1,4 @@
-[gd_scene load_steps=9 format=3 uid="uid://b58w3cx2qrmir"]
+[gd_scene load_steps=10 format=3 uid="uid://b58w3cx2qrmir"]
 
 [ext_resource type="PackedScene" uid="uid://bmqq7for0ol4w" path="res://Scenes/ui.tscn" id="1_aqp5h"]
 [ext_resource type="PackedScene" uid="uid://dyumjyop12qgn" path="res://Scenes/paddle.tscn" id="1_k28cf"]
@@ -8,6 +8,7 @@
 [ext_resource type="PackedScene" uid="uid://8oybamtlflx4" path="res://Scenes/death_zone.tscn" id="4_cnm30"]
 [ext_resource type="Script" path="res://Scripts/brick_spawner.gd" id="6_gf4sn"]
 [ext_resource type="PackedScene" uid="uid://qhhng4bjd6vx" path="res://Scenes/brick.tscn" id="7_181yb"]
+[ext_resource type="AudioStream" uid="uid://ckdfthxoui7fl" path="res://SFX/Oneul - Twinkle Light.mp3" id="9_x5fhm"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_kqw8v")
@@ -55,4 +56,5 @@ spawn_start = NodePath("../Marker2D")
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(2, -258)
 
-[node name="Music" type="AudioStreamPlayer" parent="."]
+[node name="BGMusic" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("9_x5fhm")

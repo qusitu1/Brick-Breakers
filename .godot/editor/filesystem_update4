@@ -5,3 +5,5 @@ res://Scenes/wall.tscn
 res://Scenes/brick.tscn
 res://Scenes/ui.tscn
 res://Scenes/main.gd
+res://Scripts/ui.gd
+res://Scripts/paddle.gd
