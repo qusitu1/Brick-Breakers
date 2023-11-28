@@ -11,12 +11,12 @@ const VELOCITY_LIMIT = 40
 @export var death_zone: DeathZone
 @export var ui: UI 
 
+
 var speed_up_factor = 1.05
 var start_position: Vector2
 var last_collider_id
 
 @onready var collision_shape_2d = $CollisionShape2D
-
 
 
 func _ready():
@@ -52,7 +52,7 @@ func on_life_lost():
 		life_lost.emit()
 		reset_ball()
 		ui.set_lifes(lifes)
-	
+
 
 func reset_ball():
 	position = start_position

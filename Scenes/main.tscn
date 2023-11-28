@@ -57,8 +57,10 @@ spawn_start = NodePath("../Marker2D")
 [node name="Marker2D" type="Marker2D" parent="."]
 position = Vector2(2, -258)
 
-[node name="BGMusic" type="AudioStreamPlayer" parent="."]
+[node name="Sound" type="Node" parent="."]
+
+[node name="BGMusic" type="AudioStreamPlayer" parent="Sound"]
 stream = ExtResource("9_x5fhm")
 
-[node name="LifeLostSound" type="AudioStreamPlayer" parent="."]
+[node name="LifeLostSound" type="AudioStreamPlayer" parent="Sound"]
 stream = ExtResource("10_u6e2g")
