@@ -52,6 +52,7 @@ func on_life_lost():
 		life_lost.emit()
 		reset_ball()
 		ui.set_lifes(lifes)
+	
 
 func reset_ball():
 	position = start_position
