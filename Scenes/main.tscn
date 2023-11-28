@@ -1,4 +1,4 @@
-[gd_scene load_steps=11 format=3 uid="uid://b58w3cx2qrmir"]
+[gd_scene load_steps=13 format=3 uid="uid://b58w3cx2qrmir"]
 
 [ext_resource type="PackedScene" uid="uid://bmqq7for0ol4w" path="res://Scenes/ui.tscn" id="1_aqp5h"]
 [ext_resource type="PackedScene" uid="uid://dyumjyop12qgn" path="res://Scenes/paddle.tscn" id="1_k28cf"]
@@ -10,6 +10,8 @@
 [ext_resource type="PackedScene" uid="uid://qhhng4bjd6vx" path="res://Scenes/brick.tscn" id="7_181yb"]
 [ext_resource type="AudioStream" uid="uid://ckdfthxoui7fl" path="res://SFX/Oneul - Twinkle Light.mp3" id="9_x5fhm"]
 [ext_resource type="AudioStream" uid="uid://dcpr2oswg8663" path="res://SFX/lost a life.mp3" id="10_u6e2g"]
+[ext_resource type="AudioStream" uid="uid://bw6jarjua8n3p" path="res://SFX/game won.mp3" id="11_yobiu"]
+[ext_resource type="AudioStream" uid="uid://lhvm2rjg23lk" path="res://SFX/game lost.mp3" id="12_3xjbi"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_kqw8v")
@@ -65,3 +67,10 @@ stream = ExtResource("9_x5fhm")
 [node name="LifeLostSound" type="AudioStreamPlayer" parent="Sound"]
 stream = ExtResource("10_u6e2g")
 volume_db = 5.0
+
+[node name="GameWon" type="AudioStreamPlayer" parent="Sound"]
+stream = ExtResource("11_yobiu")
+volume_db = -1.0
+
+[node name="GameLost" type="AudioStreamPlayer" parent="Sound"]
+stream = ExtResource("12_3xjbi")

@@ -7,3 +7,4 @@ res://Scenes/ui.tscn
 res://Scripts/ball.gd
 res://Scenes/main.gd
 res://Scripts/death_zone.gd
+res://Scripts/ui.gd

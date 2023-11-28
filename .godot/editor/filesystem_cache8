@@ -11,14 +11,14 @@ Brick-Yellow.png::CompressedTexture2D::5772095262280393697::1699571293::16995712
 icon.svg::CompressedTexture2D::7753658774376271310::1699571293::1699571293::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1699571293::1699571293::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1699571293::1699571293::1::::<><>::
-::res://Scenes/::1701214813
+::res://Scenes/::1701215040
 ball.tscn::PackedScene::7126159097257104896::1701214788::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png<>res://Scripts/ball.gd
 brick.tscn::PackedScene::1137920736754111333::1701214788::0::1::::<><>::res://Scripts/brick.gd<>uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png
 death_zone.tscn::PackedScene::2346592141648041359::1699572547::0::1::::<><>::res://Scripts/death_zone.gd
 main.gd::GDScript::-1::1701214587::0::1::::<>Node<>::
 main.tscn::PackedScene::4561596376614266489::1701214813::0::1::::<><>::uid://bmqq7for0ol4w::::res://Scenes/ui.tscn<>uid://dyumjyop12qgn::::res://Scenes/paddle.tscn<>res://Scenes/main.gd<>uid://c8r72f4ij7kls::::res://Scenes/ball.tscn<>uid://bx2xik7buntok::::res://Scenes/wall.tscn<>uid://8oybamtlflx4::::res://Scenes/death_zone.tscn<>res://Scripts/brick_spawner.gd<>uid://qhhng4bjd6vx::::res://Scenes/brick.tscn<>uid://ckdfthxoui7fl::::res://SFX/Oneul - Twinkle Light.mp3<>uid://dcpr2oswg8663::::res://SFX/lost a life.mp3
 paddle.tscn::PackedScene::8885827812436638833::1701214788::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
-ui.tscn::PackedScene::3262745753754053308::1701214788::0::1::::<><>::res://Scripts/ui.gd<>uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf
+ui.tscn::PackedScene::3262745753754053308::1701215040::0::1::::<><>::res://Scripts/ui.gd<>uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf
 wall.tscn::PackedScene::4057913638652265978::1701214788::0::1::::<><>::
 ::res://Scripts/::1701214673
 ball.gd::GDScript::-1::1701214673::0::1::::Ball<>CharacterBody2D<>::
@@ -28,8 +28,9 @@ death_zone.gd::GDScript::-1::1701214673::0::1::::DeathZone<>Area2D<>::
 level_definitions.gd::GDScript::-1::1700080611::0::1::::<>Node<>::
 paddle.gd::GDScript::-1::1701213790::0::1::::Paddle<>RigidBody2D<>::
 ui.gd::GDScript::-1::1700080479::0::1::::UI<>CanvasLayer<>::
-::res://SFX/::1701214886
+::res://SFX/::1701215274
 542203__chamonesteyn__bouncing-a-tennis-ball.wav::AudioStreamWAV::5548517749244799120::1701213790::1701213790::1::::<><>::
+game lost.mp3::AudioStreamMP3::787825855481888904::1701215252::1701215277::1::::<><>::
 game won.mp3::AudioStreamMP3::3995118314750778435::1701214864::1701214889::1::::<><>::
 lost a life.mp3::AudioStreamMP3::7331686574121039454::1701213911::1701213957::1::::<><>::
 Oneul - Twinkle Light.mp3::AudioStreamMP3::5481260855933857461::1701213790::1701213790::1::::<><>::
