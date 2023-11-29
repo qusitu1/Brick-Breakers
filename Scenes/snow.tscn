@@ -1,0 +1,18 @@
+[gd_scene load_steps=2 format=3 uid="uid://5dgix7jknog1"]
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_7hmkn"]
+emission_shape = 3
+emission_box_extents = Vector3(1000, 1000, 1)
+particle_flag_disable_z = true
+direction = Vector3(-1, 1, 1)
+spread = 0.0
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 20.0
+initial_velocity_max = 40.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+
+[node name="Snow" type="GPUParticles2D"]
+position = Vector2(-5, -284)
+amount = 300
+process_material = SubResource("ParticleProcessMaterial_7hmkn")
