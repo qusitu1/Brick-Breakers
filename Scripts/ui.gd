@@ -7,6 +7,7 @@ class_name UI
 @onready var level_won_container = $LevelWonContainer
 
 @onready var game_lost = $"../Sound/GameLost"
+@onready var bg_music = $"../Sound/BGMusic"
 
 
 func set_lifes(lifes: int):
@@ -16,6 +17,8 @@ func game_over():
 	game_lost_container.show()
 	
 	game_lost.play()
+	
+	bg_music.stop()
 
 func _on_game_lost_button_pressed():
 	get_tree().reload_current_scene()
