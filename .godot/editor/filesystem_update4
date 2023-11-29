@@ -4,7 +4,3 @@ res://Scenes/ball.tscn
 res://Scenes/wall.tscn
 res://Scenes/brick.tscn
 res://Scenes/ui.tscn
-res://Scripts/ball.gd
-res://Scenes/main.gd
-res://Scripts/death_zone.gd
-res://Scripts/ui.gd
