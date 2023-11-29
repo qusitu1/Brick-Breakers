@@ -17,6 +17,7 @@ var start_position: Vector2
 var last_collider_id
 
 @onready var collision_shape_2d = $CollisionShape2D
+@onready var brick_collision = $"../Sound/BrickCollision"
 
 
 func _ready():
@@ -31,6 +32,8 @@ func _physics_process(delta):
 	var collider = collision.get_collider()
 	if collider is Brick:
 		collider.decrease_level()
+		
+		brick_collision.play()
 	
 	if (collider is Brick or collider is Paddle):
 		ball_collision(collider)
