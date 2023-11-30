@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://b58w3cx2qrmir"]
+[gd_scene load_steps=15 format=3 uid="uid://b58w3cx2qrmir"]
 
 [ext_resource type="PackedScene" uid="uid://bmqq7for0ol4w" path="res://Scenes/ui.tscn" id="1_aqp5h"]
 [ext_resource type="PackedScene" uid="uid://dyumjyop12qgn" path="res://Scenes/paddle.tscn" id="1_k28cf"]
@@ -6,6 +6,7 @@
 [ext_resource type="PackedScene" uid="uid://c8r72f4ij7kls" path="res://Scenes/ball.tscn" id="2_lm2je"]
 [ext_resource type="PackedScene" uid="uid://bx2xik7buntok" path="res://Scenes/wall.tscn" id="3_i3101"]
 [ext_resource type="PackedScene" uid="uid://8oybamtlflx4" path="res://Scenes/death_zone.tscn" id="4_cnm30"]
+[ext_resource type="PackedScene" uid="uid://2h06861gjs8u" path="res://Scenes/snowflake.tscn" id="6_dsy32"]
 [ext_resource type="Script" path="res://Scripts/brick_spawner.gd" id="6_gf4sn"]
 [ext_resource type="PackedScene" uid="uid://qhhng4bjd6vx" path="res://Scenes/brick.tscn" id="7_181yb"]
 [ext_resource type="AudioStream" uid="uid://ckdfthxoui7fl" path="res://SFX/Oneul - Twinkle Light.mp3" id="9_x5fhm"]
@@ -22,6 +23,8 @@ script = ExtResource("1_kqw8v")
 [node name="Camera2D" type="Camera2D" parent="."]
 
 [node name="Snow" parent="." instance=ExtResource("13_04cw3")]
+amount = 800
+lifetime = 0.5
 
 [node name="Paddle" parent="." node_paths=PackedStringArray("camera") instance=ExtResource("1_k28cf")]
 position = Vector2(2.08165e-12, 283)
@@ -33,6 +36,8 @@ position = Vector2(2.08165e-12, 152)
 collision_mask = 14
 death_zone = NodePath("../DeathZone")
 ui = NodePath("../UI")
+
+[node name="snowflake" parent="Ball" instance=ExtResource("6_dsy32")]
 
 [node name="Walls" type="Node" parent="."]
 

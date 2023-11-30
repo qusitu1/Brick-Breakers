@@ -4,5 +4,6 @@ res://Scenes/ball.tscn
 res://Scenes/wall.tscn
 res://Scenes/brick.tscn
 res://Scenes/ui.tscn
-res://snow.tscn
 res://Scenes/snow.tscn
+res://Scenes/snowflake.tscn
+res://Scripts/ui.gd

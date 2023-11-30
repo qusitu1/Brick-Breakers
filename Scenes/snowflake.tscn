@@ -1,0 +1,27 @@
+[gd_scene load_steps=5 format=3 uid="uid://2h06861gjs8u"]
+
+[ext_resource type="Texture2D" uid="uid://cb7xuy07unuhu" path="res://Assets/snowflake.png" id="1_a7bq6"]
+
+[sub_resource type="Gradient" id="Gradient_eudpq"]
+colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ryvji"]
+gradient = SubResource("Gradient_eudpq")
+
+[sub_resource type="ParticleProcessMaterial" id="ParticleProcessMaterial_jgmwg"]
+particle_flag_disable_z = true
+spread = 10.0
+gravity = Vector3(2.08165e-12, 2.08165e-12, 2.08165e-12)
+initial_velocity_min = 20.0
+initial_velocity_max = 74.22
+angular_velocity_min = 10.0
+angular_velocity_max = 10.0
+orbit_velocity_min = 0.0
+orbit_velocity_max = 0.0
+scale_min = 0.05
+scale_max = 0.05
+color_ramp = SubResource("GradientTexture1D_ryvji")
+
+[node name="snowflake" type="GPUParticles2D"]
+process_material = SubResource("ParticleProcessMaterial_jgmwg")
+texture = ExtResource("1_a7bq6")

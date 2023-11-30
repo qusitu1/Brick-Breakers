@@ -1,6 +1,7 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1701291622
-::res://Assets/::1701293102
+::res://::1701385624
+snowflake.png::CompressedTexture2D::2549527060180748193::1701385619::1701385604::1::::<><>::
+::res://Assets/::1701385630
 aggd0b8n9050bhfeehrplvuu9i0y.png::CompressedTexture2D::3965094417417310701::1701292173::1701292173::1::::<><>::
 Ball.png::CompressedTexture2D::7113742415800555843::1698099490::1698099490::1::::<><>::
 Brick-Blue.png::CompressedTexture2D::8979348304139843021::1698099490::1698099490::1::::<><>::
@@ -10,19 +11,22 @@ Brick-Orange.png::CompressedTexture2D::5829837668562829217::1698099490::16980994
 Brick-Red.png::CompressedTexture2D::7407871970170932163::1698099490::1698099490::1::::<><>::
 Brick-Yellow.png::CompressedTexture2D::5772095262280393697::1698099490::1698099490::1::::<><>::
 icon.svg::CompressedTexture2D::7753658774376271310::1698099490::1698099490::1::::<><>::
+maxresdefault.jpg::CompressedTexture2D::4446582327118512033::1701384741::1701384741::1::::<><>::
 Paddle.png::CompressedTexture2D::5477542658004981000::1698099490::1698099490::1::::<><>::
-snowflake-man-17162886 (1).webp::CompressedTexture2D::8601208812822129874::1701293102::1701293102::1::::<><>::
+snowflake-man-17162886 (1).webp::CompressedTexture2D::8601208812822129874::1701293135::1701293102::1::::<><>::
+snowflake.png::CompressedTexture2D::4910523806527582394::1701385571::1701385638::1::::<><>::
+Snowflakes-4-PNG.png::CompressedTexture2D::9056289828340002128::1701385138::1701385139::1::::<><>::
 VT323-Regular.ttf::FontFile::4453843302194638347::1698099490::1698099490::1::::<><>::
-::res://Scenes/::1701292643
-ball.tscn::PackedScene::7126159097257104896::1701292269::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png<>res://Scripts/ball.gd
-brick.tscn::PackedScene::1137920736754111333::1701292269::0::1::::<><>::res://Scripts/brick.gd<>uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png
+::res://Scenes/::1701385396
+ball.tscn::PackedScene::7126159097257104896::1701385396::0::1::::<><>::uid://c8l7ke1ygg27h::::res://Assets/Ball.png<>res://Scripts/ball.gd
+brick.tscn::PackedScene::1137920736754111333::1701385396::0::1::::<><>::res://Scripts/brick.gd<>uid://d06ws4g0pu0q0::::res://Assets/Brick-Blue.png
 death_zone.tscn::PackedScene::2346592141648041359::1698789331::0::1::::<><>::res://Scripts/death_zone.gd
 main.gd::GDScript::-1::1701215075::0::1::::<>Node<>::
-main.tscn::PackedScene::4561596376614266489::1701292643::0::1::::<><>::uid://bmqq7for0ol4w::::res://Scenes/ui.tscn<>uid://dyumjyop12qgn::::res://Scenes/paddle.tscn<>res://Scenes/main.gd<>uid://c8r72f4ij7kls::::res://Scenes/ball.tscn<>uid://bx2xik7buntok::::res://Scenes/wall.tscn<>uid://8oybamtlflx4::::res://Scenes/death_zone.tscn<>res://Scripts/brick_spawner.gd<>uid://qhhng4bjd6vx::::res://Scenes/brick.tscn<>uid://ckdfthxoui7fl::::res://SFX/Oneul - Twinkle Light.mp3<>uid://dcpr2oswg8663::::res://SFX/lost a life.mp3<>uid://bw6jarjua8n3p::::res://SFX/game won.mp3<>uid://lhvm2rjg23lk::::res://SFX/game lost.mp3<>uid://5dgix7jknog1::::res://Scenes/snow.tscn
-paddle.tscn::PackedScene::8885827812436638833::1701292269::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
-snow.tscn::PackedScene::2112238288604592966::1701292269::0::1::::<><>::
-ui.tscn::PackedScene::3262745753754053308::1701292269::0::1::::<><>::res://Scripts/ui.gd<>uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf
-wall.tscn::PackedScene::4057913638652265978::1701292269::0::1::::<><>::
+main.tscn::PackedScene::4561596376614266489::1701385396::0::1::::<><>::uid://bmqq7for0ol4w::::res://Scenes/ui.tscn<>uid://dyumjyop12qgn::::res://Scenes/paddle.tscn<>res://Scenes/main.gd<>uid://c8r72f4ij7kls::::res://Scenes/ball.tscn<>uid://bx2xik7buntok::::res://Scenes/wall.tscn<>uid://8oybamtlflx4::::res://Scenes/death_zone.tscn<>res://Scripts/brick_spawner.gd<>uid://qhhng4bjd6vx::::res://Scenes/brick.tscn<>uid://ckdfthxoui7fl::::res://SFX/Oneul - Twinkle Light.mp3<>uid://dcpr2oswg8663::::res://SFX/lost a life.mp3<>uid://bw6jarjua8n3p::::res://SFX/game won.mp3<>uid://lhvm2rjg23lk::::res://SFX/game lost.mp3<>uid://5dgix7jknog1::::res://Scenes/snow.tscn
+paddle.tscn::PackedScene::8885827812436638833::1701385396::0::1::::<><>::res://Scripts/paddle.gd<>uid://ckbmlemetbql1::::res://Assets/Paddle.png
+snow.tscn::PackedScene::2112238288604592966::1701385396::0::1::::<><>::
+ui.tscn::PackedScene::3262745753754053308::1701385396::0::1::::<><>::res://Scripts/ui.gd<>uid://b4pqfbvte11k6::::res://Assets/VT323-Regular.ttf
+wall.tscn::PackedScene::4057913638652265978::1701385396::0::1::::<><>::
 ::res://Scripts/::1701289634
 ball.gd::GDScript::-1::1701215075::0::1::::Ball<>CharacterBody2D<>::
 brick.gd::GDScript::-1::1700002101::0::1::::Brick<>RigidBody2D<>::
