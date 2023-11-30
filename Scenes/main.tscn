@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=3 uid="uid://b58w3cx2qrmir"]
+[gd_scene load_steps=15 format=3 uid="uid://b58w3cx2qrmir"]
 
 [ext_resource type="PackedScene" uid="uid://bmqq7for0ol4w" path="res://Scenes/ui.tscn" id="1_aqp5h"]
 [ext_resource type="PackedScene" uid="uid://dyumjyop12qgn" path="res://Scenes/paddle.tscn" id="1_k28cf"]
@@ -13,6 +13,7 @@
 [ext_resource type="AudioStream" uid="uid://bw6jarjua8n3p" path="res://SFX/game won.mp3" id="11_yobiu"]
 [ext_resource type="AudioStream" uid="uid://lhvm2rjg23lk" path="res://SFX/game lost.mp3" id="12_3xjbi"]
 [ext_resource type="AudioStream" uid="uid://b2iap2nvwu5pd" path="res://SFX/ball hitting brick.mp3" id="13_23m33"]
+[ext_resource type="AudioStream" uid="uid://ckvj4g33fqrlf" path="res://SFX/level passed.mp3" id="14_nv6mo"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_kqw8v")
@@ -80,3 +81,6 @@ stream = ExtResource("12_3xjbi")
 stream = ExtResource("13_23m33")
 volume_db = -6.0
 pitch_scale = 0.5
+
+[node name="LevelPassed" type="AudioStreamPlayer" parent="Sound"]
+stream = ExtResource("14_nv6mo")

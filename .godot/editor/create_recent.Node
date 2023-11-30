@@ -1,9 +1,9 @@
+AudioStreamPlayer
 Button
 Label
 VBoxContainer
 Panel
 CenterContainer
-AudioStreamPlayer
 AudioStreamPlayer2D
 Node
 Marker2D
