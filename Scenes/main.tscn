@@ -13,7 +13,10 @@
 [ext_resource type="AudioStream" uid="uid://dcpr2oswg8663" path="res://SFX/lost a life.mp3" id="10_u6e2g"]
 [ext_resource type="AudioStream" uid="uid://bw6jarjua8n3p" path="res://SFX/game won.mp3" id="11_yobiu"]
 [ext_resource type="AudioStream" uid="uid://lhvm2rjg23lk" path="res://SFX/game lost.mp3" id="12_3xjbi"]
+<<<<<<< Updated upstream
 [ext_resource type="PackedScene" uid="uid://nt2hla7cc3h2" path="res://Scenes/snow.tscn" id="13_04cw3"]
+=======
+>>>>>>> Stashed changes
 [ext_resource type="AudioStream" path="res://SFX/ball hitting brick.mp3" id="13_23m33"]
 [ext_resource type="AudioStream" path="res://SFX/level passed.mp3" id="14_nv6mo"]
 
