@@ -1,6 +1,6 @@
-[gd_scene load_steps=5 format=3 uid="uid://2h06861gjs8u"]
+[gd_scene load_steps=5 format=3 uid="uid://bt3mcrtutnufk"]
 
-[ext_resource type="Texture2D" uid="uid://cb7xuy07unuhu" path="res://Assets/snowflake.png" id="1_a7bq6"]
+[ext_resource type="Texture2D" path="res://Assets/snowflake.png" id="1_a7bq6"]
 
 [sub_resource type="Gradient" id="Gradient_eudpq"]
 colors = PackedColorArray(1, 1, 1, 1, 1, 1, 1, 0)

@@ -1,4 +1,4 @@
-[gd_scene load_steps=15 format=3 uid="uid://b58w3cx2qrmir"]
+[gd_scene load_steps=17 format=3 uid="uid://b58w3cx2qrmir"]
 
 [ext_resource type="PackedScene" uid="uid://bmqq7for0ol4w" path="res://Scenes/ui.tscn" id="1_aqp5h"]
 [ext_resource type="PackedScene" uid="uid://dyumjyop12qgn" path="res://Scenes/paddle.tscn" id="1_k28cf"]
@@ -6,19 +6,23 @@
 [ext_resource type="PackedScene" uid="uid://c8r72f4ij7kls" path="res://Scenes/ball.tscn" id="2_lm2je"]
 [ext_resource type="PackedScene" uid="uid://bx2xik7buntok" path="res://Scenes/wall.tscn" id="3_i3101"]
 [ext_resource type="PackedScene" uid="uid://8oybamtlflx4" path="res://Scenes/death_zone.tscn" id="4_cnm30"]
+[ext_resource type="PackedScene" uid="uid://bt3mcrtutnufk" path="res://Scenes/snowflake.tscn" id="6_dsy32"]
 [ext_resource type="Script" path="res://Scripts/brick_spawner.gd" id="6_gf4sn"]
 [ext_resource type="PackedScene" uid="uid://qhhng4bjd6vx" path="res://Scenes/brick.tscn" id="7_181yb"]
 [ext_resource type="AudioStream" uid="uid://ckdfthxoui7fl" path="res://SFX/Oneul - Twinkle Light.mp3" id="9_x5fhm"]
 [ext_resource type="AudioStream" uid="uid://dcpr2oswg8663" path="res://SFX/lost a life.mp3" id="10_u6e2g"]
 [ext_resource type="AudioStream" uid="uid://bw6jarjua8n3p" path="res://SFX/game won.mp3" id="11_yobiu"]
 [ext_resource type="AudioStream" uid="uid://lhvm2rjg23lk" path="res://SFX/game lost.mp3" id="12_3xjbi"]
-[ext_resource type="AudioStream" uid="uid://b2iap2nvwu5pd" path="res://SFX/ball hitting brick.mp3" id="13_23m33"]
-[ext_resource type="AudioStream" uid="uid://ckvj4g33fqrlf" path="res://SFX/level passed.mp3" id="14_nv6mo"]
+[ext_resource type="PackedScene" uid="uid://nt2hla7cc3h2" path="res://Scenes/snow.tscn" id="13_04cw3"]
+[ext_resource type="AudioStream" path="res://SFX/ball hitting brick.mp3" id="13_23m33"]
+[ext_resource type="AudioStream" path="res://SFX/level passed.mp3" id="14_nv6mo"]
 
 [node name="Main" type="Node"]
 script = ExtResource("1_kqw8v")
 
 [node name="UI" parent="." instance=ExtResource("1_aqp5h")]
+
+[node name="Snow" parent="." instance=ExtResource("13_04cw3")]
 
 [node name="Camera2D" type="Camera2D" parent="."]
 
@@ -32,6 +36,8 @@ position = Vector2(2.08165e-12, 152)
 collision_mask = 14
 death_zone = NodePath("../DeathZone")
 ui = NodePath("../UI")
+
+[node name="snowflake" parent="Ball" instance=ExtResource("6_dsy32")]
 
 [node name="Walls" type="Node" parent="."]
 
