@@ -6,3 +6,5 @@ res://Scenes/ui.tscn
 res://Scenes/snow.tscn
 res://Scenes/snowflake.tscn
 res://Scenes/main.tscn
+res://Scripts/level_definitions.gd
+res://Scripts/ball.gd
