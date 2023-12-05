@@ -1,10 +1,10 @@
-GPUParticles2D
-AudioStreamPlayer
 Button
 Label
 VBoxContainer
 Panel
 CenterContainer
+GPUParticles2D
+AudioStreamPlayer
 AudioStreamPlayer2D
 Node
 Marker2D

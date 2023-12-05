@@ -5,10 +5,14 @@ class_name UI
 @onready var lifes_label = %LifesLabel
 @onready var game_lost_container = $GameLostContainer
 @onready var level_won_container = $LevelWonContainer
+@onready var game_won_container = $GameWonContainer
+
 
 @onready var game_lost = $"../Sound/GameLost"
 @onready var bg_music = $"../Sound/BGMusic"
 @onready var level_passed = $"../Sound/LevelPassed"
+@onready var game_won = $"../Sound/GameWon"
+
 
 
 func set_lifes(lifes: int):
@@ -32,5 +36,9 @@ func on_level_won():
 	bg_music.stop()
 
 func _on_level_won_button_pressed():
-	LevelDefinitions.current_level = 2
+	LevelDefinitions.current_level += 1
 	get_tree().reload_current_scene()
+
+func won_game():
+	game_won_container.show()
+	game_won.play()
