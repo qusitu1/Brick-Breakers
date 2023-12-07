@@ -4,15 +4,15 @@ class_name Ball
 
 signal life_lost
 
-const VELOCITY_LIMIT = 40
+const VELOCITY_LIMIT = 25
 
-@export var ball_speed = 15
+@export var ball_speed = 20
 @export var lifes = 20
 @export var death_zone: DeathZone
 @export var ui: UI 
 
 
-var speed_up_factor = 1.0
+var speed_up_factor = 1.01
 var start_position: Vector2
 var last_collider_id
 
